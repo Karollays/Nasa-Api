@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: thistle;
+    
+    
+}
+
+#search, input {
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.cabecalho {
+    background-color: black;
+    color:#0B3D91;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Monda', sans-serif; 
+    font-size: 20px;
+}
+
+.conteudo {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    background-image: url("../IMAGENS/ceu.gif"); 
+    flex-direction: column;
+    display: flex;
+    min-height: 100%;
+}
+
+h2 {
+    padding:1em 3px 30px 300px;
+    margin-left:-200px;
+    color: white;
+}
+
+.date {
+    top:60%;
+    margin: 10px 60px;
+    font-size: 20px;
+    color: white;
+}
+    
+a {
+    cursor:pointer;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    color:rgb(54, 54, 54);
+}
+
+.rodape {
+    flex-shrink: 0;
+    height: 50px;  
+}
+
+p {
+    background-color: black;
+    color:white;
+    padding: 30px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width:600px) {
+
+    .data {
+    width: 100%;
+    height: auto;
+    }
+    h2{
+    height: auto;
+    padding:10px;
+    margin-left: 0%;
+    }
+
+}
+
